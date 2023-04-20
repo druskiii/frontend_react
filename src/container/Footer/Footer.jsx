@@ -56,10 +56,12 @@ const handleSubmit = () => {
     {!isFormSubmitted ? 
       <div className='app__footer-form app__flex'>
         <div className='app__flex'>
-          <input className='p-text' type="text" name="name" placeholder='Your Name' value={name} onChange={handleChangeInput}  />
+          <input className='p-text' type="text" name="name" placeholder='Your Name' value={name} onChange={handleChangeInput} required
+       minlength="2"  />
         </div>
         <div className='app__flex'>
-          <input className='p-text' type="email" name="email" placeholder='Your Email' value={email} onChange={handleChangeInput}  />
+          <input className='p-text' type="email" name="email" placeholder='Your Email' value={email} onChange={handleChangeInput} required
+       minlength="8" />
         </div>
         <div>
           <textarea 
@@ -68,9 +70,10 @@ const handleSubmit = () => {
             value={message}
             name='message'
             onChange={handleChangeInput}
+            required minlength="1"
           />
         </div>
-        <button type="button" className='p-text' onClick={handleSubmit}>{loading ? 'Sending' : 'Send me a message!'}</button>
+        <button type="button submit" className='p-text' onClick={handleSubmit}>{loading ? 'Sending' : 'Send me a message!'}</button>
       </div>
       : <div>
         <h3 className='head-text'>Thank you for getting in touch!</h3>

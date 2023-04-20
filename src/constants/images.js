@@ -35,6 +35,13 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
+import aspen from '../assets/aspen.png';
+import colorwave from '../assets/colorwave.png';
+import penn from '../assets/penn.png';
+import plan from '../assets/plan.png';
+import tclp from '../assets/tclp.png';
+
+
 // eslint-disable-next-line
 export default {
   email,
@@ -70,4 +77,9 @@ export default {
   nb,
   skype,
   spotify,
+  aspen,
+  colorwave,
+  penn,
+  plan,
+  tclp,
 };
