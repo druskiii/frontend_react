@@ -66,7 +66,6 @@ const Header = () => {
             <img src={circle} alt='circle'/>
         </div>)}
       </motion.div>
-
     </div>
   )
 }
