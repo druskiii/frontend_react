@@ -41,6 +41,13 @@ import penn from '../assets/penn.png';
 import plan from '../assets/plan.png';
 import tclp from '../assets/tclp.png';
 
+import bootstrap from '../assets/bootstrap.png';
+import d3 from '../assets/d3.png';
+import drupal from '../assets/drupal.png';
+import jquery from '../assets/jquery.jpg';
+import sanity from '../assets/sanity.png';
+import tovuti from '../assets/tovuti.png';
+
 
 // eslint-disable-next-line
 export default {
@@ -82,4 +89,10 @@ export default {
   penn,
   plan,
   tclp,
+  bootstrap,
+  d3,
+  drupal,
+  sanity,
+  tovuti,
+  jquery,
 };
